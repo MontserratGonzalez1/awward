@@ -30,8 +30,51 @@
   text-align: center;
 }
 
+/*esta clase es dematerialize y laambie para subir ellogo xq quedaba afuera */
 .brand-logo {
-  margin-top: -30px !important;
+  margin-top: -80px !important;
+}
+
+/* estas clases son dematerialize y lascambie para hacer los circulos */
+.preloader-wrapper.active {
+  -webkit-animation: container-rotate 1568ms linear !important;
+  animation: container-rotate 1568ms linear !important;
+}
+
+#spinner-red-only {
+  border: 3px solid red !important;
+  border-radius: 100% !important;
+  height: 70px !important;
+  width: 70px !important;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#spinner-yellow-only {
+  border: 3px solid yellow !important;
+  border-radius: 100% !important;
+  height: 70px !important;
+  width: 70px !important;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#spinner-green-only {
+  border: 3px solid green !important;
+  border-radius: 100% !important;
+  height: 70px !important;
+  width: 70px !important;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#spinner-blue-only {
+  border: 3px solid blue !important;
+  border-radius: 100% !important;
+  height: 70px !important;
+  width: 70px !important;
+  text-align: center;
+  padding-top: 5px;
 }
 
 /* este es el epacio que existe dentro de las secciones */
