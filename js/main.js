@@ -1,6 +1,17 @@
 /* menu */
-$(".button-collapse").sideNav();
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
 
+/*tooltip*/
+  $(document).ready(function(){
+    $('.tooltipped').tooltip({delay: 50});
+  });
+        
+// Show sideNav
+  $('.button-collapse').sideNav('show');
+  // Hide sideNav
+  $('.button-collapse').sideNav('hide');
 
   $('.button-collapse').sideNav({
       menuWidth: 300, // Default is 240
@@ -9,11 +20,17 @@ $(".button-collapse").sideNav();
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
-        
-// Hide sideNav
-  $('.button-collapse').sideNav('hide');
 
-/*footer*/
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+/*footer
 $(document).ready(function(){
 	var altura = $('.menu').offset().top;
 	
@@ -26,3 +43,4 @@ $(document).ready(function(){
 	});
  
 });
+*/

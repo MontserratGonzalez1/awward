@@ -14,17 +14,19 @@ DOCTYPE
 
 body
 	header
-		nav.grey.lighten-3.menu-fixed
-			div.col.l1
-				span.material-icons menu MENU
-
-			div.col.l1
-				span.material-icons search 
-
-			a(href="#",data-activates="slide-out").button-collapse
-
+		nav.grey.lighten-3.menu-fixed.black-text
+			.row
+				div.col.l1.center.top20
+					#mySidenav.sidenav.material-icons menu 
+				div.col.l1.center.top20
+					span.material-icons search 
+				div.col.l5.center
 					a(href="x")
-						img(src="img/logo.png",alt="awwwards").center.brand-logo
+						img(src="img/logo.png",alt="awwwards").logo
+				div.col.l4.center
+					p Are you member? Register / log in
+				div.col.l1.center.ultimo-menu
+					.material-icons.top20 playlist_add
 	section.back1#inicio
 		div.row
 			div.col.l3.white-text
@@ -32,31 +34,36 @@ body
 					span.thin Dec 14,2016
 				div.btn1.top290 Visit website
 			div.col.l5.center.white-text
-				h2.top100.bold HP Sound in Color
-				p: strong  BY RESN FROM NETHERLANDS WITH 7.6
+				h2.top100.bold Olivier Bernstein
+				p: strong  BY JONATHAN DA COSTA FROM FRANCE WITH 7.28
 				// aqui irian los circulos de carga
 				// circulo de prueba
 				div.preloader-wrapper.big.active.top20
 					div#spinner-red-only.spin
-						p 7.63
+						p 7.42
+					p.font12 DESIGN
 				div.preloader-wrapper.big.active.top20
 					div#spinner-yellow-only.spin
-						p 7.23
+						p 7.11
+					p.font12 USABILITY
 				div.preloader-wrapper.big.active.top20
 					div#spinner-green-only.spin
-						p 8.48
+						p 7.33
+					p.font12 CREATIVITY
 				div.preloader-wrapper.big.active.top20
 					div#spinner-blue-only.spin
-						p 6.87
+						p 7.14
+					p.font12 CONTENT
 			div.col.l4.right-align
+
 				img(src="img/users/team.jpg").avatar.circle.responsive-img
 				img(src="img/users/arnaud.png").avatar.circle.responsive-img
 				img(src="img/users/henry.jpg").avatar.circle.responsive-img
 				img(src="img/users/inknite.jpg").avatar.circle.responsive-img
-				div.plus.white-text.material-icons add
+				div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").plus.white-text.tooltipped.material-icons add
 				div.row.top290.right-align
 					div.col.s12
-						div.plus.white-text.material-icons device_hub
+						div.plus.white-text.material-icons share
 	section.padd-secc.grey.lighten-3
 		div.row
 			div.col.l6
@@ -80,7 +87,7 @@ body
 							img(src="img/users/henry.jpg").avatar.circle.responsive-img
 							img(src="img/users/arnaud.png").avatar.circle.responsive-img
 							img(src="img/users/jomor.jpg").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 			div.col.l4.s12
 				div.card-image
 					img(src="img/coleccion/faq_page.jpg").foto
@@ -92,7 +99,7 @@ body
 						div.col.s12
 							img(src="img/users/inknite.jpg").avatar.circle.responsive-img
 							img(src="img/users/team.jpg").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 			div.col.l4.s12
 				div.card-image
 					img(src="img/coleccion/fullscreen_menu.jpg").foto
@@ -107,7 +114,7 @@ body
 							img(src="img/users/team.jpg").avatar.circle.responsive-img
 							img(src="img/users/inknite.jpg").avatar.circle.responsive-img
 							img(src="img/users/jomor.jpg").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 		div.row
 			div.col.l12.s12
 				div.btn2 LOAD MORE
@@ -128,7 +135,7 @@ body
 							img(src="img/users/arnaud.png").avatar.circle.responsive-img
 							img(src="img/users/team.jpg").avatar.circle.responsive-img
 							img(src="img/users/inknite.jpg").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 			div.col.l4.s12
 				div.card-image
 					img(src="img/coleccion/mosaic_menu.jpg").foto
@@ -139,7 +146,7 @@ body
 					div.row
 						div.col.s12
 							img(src="img/users/team.jpg").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 			div.col.l4.s12
 				div.card-image
 					img(src="img/coleccion/praticca.jpg").foto
@@ -149,7 +156,7 @@ body
 					div.row
 						div.col.s12
 							img(src="img/users/arnaud.png").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 		div.row
 			div.col.l4.s12
 				div.card-image
@@ -160,7 +167,7 @@ body
 					div.row
 						div.col.s12
 							img(src="img/users/arnaud.png").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 			div.col.l4.s12
 				div.card-image
 					img(src="img/coleccion/inspiration.jpg").foto
@@ -173,7 +180,7 @@ body
 							img(src="img/users/arnaud.png").avatar.circle.responsive-img
 							img(src="img/users/henry.jpg").avatar.circle.responsive-img
 							img(src="img/users/team.jpg").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 			div.col.l4.s12
 				div.card-image
 					img(src="img/coleccion/fullscreen_menu.jpg").foto
@@ -187,7 +194,7 @@ body
 							img(src="img/users/team.jpg").avatar.circle.responsive-img
 							img(src="img/users/inknite.jpg").avatar.circle.responsive-img
 							img(src="img/users/jomor.jpg").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 		div.row
 			div.col.l4.s12
 				div.card-image
@@ -198,7 +205,7 @@ body
 					div.row
 						div.col.s12
 							img(src="img/users/arnaud.png").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 			div.col.l4.s12
 				div.card-image
 					img(src="img/coleccion/tempo.jpg").foto
@@ -212,7 +219,7 @@ body
 							img(src="img/users/henry.jpg").avatar.circle.responsive-img
 							img(src="img/users/team.jpg").avatar.circle.responsive-img
 							img(src="img/users/inknite.jpg").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 			div.col.l4.s12
 				div.card-image
 					img(src="img/coleccion/ui.jpg").foto
@@ -223,7 +230,7 @@ body
 						div.col.s12
 							img(src="img/users/arnaud.png").avatar.circle.responsive-img
 							img(src="img/users/henry.jpg").avatar.circle.responsive-img
-							div.plus2.right.grey-text.material-icons add
+							div(data-position="top", data-tooltip="Add to Collections!",data-delay="50").tooltipped.plus2.right.grey-text.material-icons add
 		div.row
 			div.col.l12
 				div.btn2 LOAD MORE
@@ -252,8 +259,8 @@ body
 	footer.foo-fixed
 		div.row
 			div.col.l12.s12
-				p.font14 This website uses cookies to ensure you get the best experience on our website. Learn More	
-				.btn GOT IT!				
+				p.font14.center This website uses cookies to ensure you get the best experience on our website. Learn More	
+			.btn GOT IT!				
 
 
 
@@ -263,5 +270,4 @@ body
 
 	script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
 	script(type="text/javascript" src="../materialize/js/materialize.min.js")
-	script(src="js/main.js")
-		
+	script(src="../js/main.js")
