@@ -35,39 +35,26 @@
 .preloader-wrapper.active
 	-webkit-animation: container-rotate 1568ms linear !important
 	animation: container-rotate 1568ms linear !important
+/*ësta clase tiene propiedades de las de materialize,pero lahice clase para no repetir codigo
+	en los id de los colores*/
+.spin
+	border-radius: 100% !important
+	height: 70px !important
+	width: 70px !important
+	text-align: center
+	padding-top: 5px
 
 #spinner-red-only
 	border: 3px solid red !important
-	border-radius: 100% !important
-	height: 70px !important
-	width: 70px !important
-	text-align: center
-	padding-top: 5px
 	
 #spinner-yellow-only
 	border: 3px solid yellow !important
-	border-radius: 100% !important
-	height: 70px !important
-	width: 70px !important
-	text-align: center
-	padding-top: 5px
-
+	
 #spinner-green-only
 	border: 3px solid green !important
-	border-radius: 100% !important
-	height: 70px !important
-	width: 70px !important
-	text-align: center
-	padding-top: 5px
 
 #spinner-blue-only
 	border: 3px solid blue !important
-	border-radius: 100% !important
-	height: 70px !important
-	width: 70px !important
-	text-align: center
-	padding-top: 5px
-
 
 /* este es el epacio que existe dentro de las secciones */
 .padd-secc 
@@ -95,6 +82,22 @@
 /*este es el tamaño para lasfotosporque las recorte yno se ajustaban */
 .foto
 	width: 100%
+
+.foto:hover
+	max-height: 100%
+	height: 40%
+/*
+ hice las clases para elhover pero no puedo
+.redes
+	width: 100%
+	height: 100%
+	visibility: hidden
+	display: inline-block
+	line-height: 50px
+
+.redes:hover
+	background-color: #bdbdbd
+*/
 
 .card-content
 	background-color: #fff

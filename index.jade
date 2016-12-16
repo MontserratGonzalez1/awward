@@ -11,7 +11,6 @@ DOCTYPE
 			link(href="https://fonts.googleapis.com/icon?family=Material+Icons",rel="stylesheet")
 			link(href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500", rel="stylesheet", media="all")
 			link(href="css/estilos.css",type="text/css", rel="stylesheet")
-			link(href="css/font-awesome.css",type="text/css", rel="stylesheet")
 
 body
 	header
@@ -38,16 +37,16 @@ body
 				// aqui irian los circulos de carga
 				// circulo de prueba
 				div.preloader-wrapper.big.active.top20
-					div#spinner-red-only
+					div#spinner-red-only.spin
 						p 7.63
 				div.preloader-wrapper.big.active.top20
-					div#spinner-yellow-only
+					div#spinner-yellow-only.spin
 						p 7.23
 				div.preloader-wrapper.big.active.top20
-					div#spinner-green-only
+					div#spinner-green-only.spin
 						p 8.48
 				div.preloader-wrapper.big.active.top20
-					div#spinner-blue-only
+					div#spinner-blue-only.spin
 						p 6.87
 			div.col.l4.right-align
 				img(src="img/users/team.jpg").avatar.circle.responsive-img
@@ -68,6 +67,10 @@ body
 			div.col.l4.s12
 				div.card-image
 					img(src="img/coleccion/fancy.jpg").foto
+					//div.redes
+						img(src="img/icons/facebook.png")
+						img(src="img/icons/twitter.png")
+						img(src="img/icons/google.png")
 				div.card-content
 					strong.card-title Fancy
 					p By CREATIVE NIGHTS from Czech Republic 
