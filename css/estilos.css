@@ -3,7 +3,35 @@
   background-image: url("../img/botella_head.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70%;
+  height: 80%;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*este boton es el blanco transparente que esta dento de la imagen */
+.btn1 {
+  background-color: transparent;
+  border-radius: 40px;
+  border: solid white 1px;
+  width: 120px;
+  padding: 2px 3px;
+  text-align: center;
+}
+
+/*estos don los blancos grandes que dicen LEER MAS */
+.btn2 {
+  background-color: white;
+  padding-top: 13px;
+  color: gray;
+  height: 50px;
+  width: 160px;
+  margin-left: 480px;
+  text-align: center;
+}
+
+.brand-logo {
+  margin-top: -30px !important;
 }
 
 /* este es el epacio que existe dentro de las secciones */
@@ -44,6 +72,35 @@
   padding: 2px 3px;
 }
 
+.btn-flecha {
+  width: 70px;
+  height: 70px;
+  border: 1px gray solid;
+  color: gray;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: rgba(97, 97, 97, 0.7);
+  color: white;
+}
+
+.foo-fixed {
+  max-width: 100%;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+.menu-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
 .top20 {
   margin-top: 20px;
 }
@@ -54,5 +111,13 @@
 
 /*margen para elboton en el head/ imagen */
 .top290 {
-  margin-top: 290px;
+  margin-top: 340px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.font16 {
+  font-size: 18px;
 }

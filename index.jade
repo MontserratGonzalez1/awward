@@ -15,24 +15,27 @@ DOCTYPE
 
 body
 	header
-		nav.grey.lighten-3
-			ul#slide-out.side-nav 
-				li: a(href="#!")
-					span.material-icons menu
+		nav.grey.lighten-3.menu-fixed
+			div.col.l1
+				span.material-icons menu MENU
+
+			div.col.l1
+				span.material-icons search 
 
 			a(href="#",data-activates="slide-out").button-collapse
 
 					a(href="x")
 						img(src="img/logo.png",alt="awwwards").center.brand-logo
-	section.back1.padd-secc
+	section.back1#inicio
 		div.row
 			div.col.l3.white-text
 				strong Site of the Day /
-				span.thin Dec 14,2016
-				div.btn.top290 Visit website
+					span.thin Dec 14,2016
+				div.btn1.top290 Visit website
 			div.col.l5.center.white-text
 				h2.top100.bold HP Sound in Color
-				p BY RESN FROM NETHERLANDS WITH 7.6
+				p: strong  BY RESN FROM NETHERLANDS WITH 7.6
+				// single line comment
 				
 				div.preloader-wrapper.big.active.top20
 					div.spinner-red-only
@@ -107,8 +110,8 @@ body
 							img(src="img/users/jomor.jpg").avatar.circle.responsive-img
 							div.plus2.right.grey-text.material-icons add
 		div.row
-			div.col.l12.s12.center
-				div.btn LOAD MORE
+			div.col.l12.s12
+				div.btn2 LOAD MORE
 	section.padd-secc.grey.lighten-3
 		div.row
 			div.col.l12.s12
@@ -223,8 +226,36 @@ body
 							img(src="img/users/henry.jpg").avatar.circle.responsive-img
 							div.plus2.right.grey-text.material-icons add
 		div.row
-			div.col.l12.s12.center
-				div.btn LOAD MORE
+			div.col.l12
+				div.btn2 LOAD MORE
+	section.padd-secc
+		div.row
+			div.col.l6
+				p.font16 The awards for design, creativity and innovation on the Internet
+				div.row
+					div.col.s2
+						strong.font14 Directory
+					div.col.s2
+						strong.font14 Jobs
+					div.col.s2
+						strong.font14 Contact Us
+					div.col.s3
+						strong.font14 Cookies Policy
+					div.col.s3
+						strong.font14 Legal Terms
+				p Private Cloud by Stackscale
+			div.col.l6
+				p.font16.right Follow for inspiration on Twitter and Facebook
+		div.row.center-align
+			div.col.l12
+				
+				a(href="#inicio"): div.btn-flecha.material-icons arrow_upward
+	footer.foo-fixed
+		div.row
+			div.col.l12.s12
+				p.font14 This website uses cookies to ensure you get the best experience on our website. Learn More	
+				.btn GOT IT!				
+
 
 
 
